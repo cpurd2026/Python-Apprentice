@@ -16,7 +16,7 @@ turtle.setup(width=600, height=600)     # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(2)                           # Make the turtle move as fast, but not too fast.
+tina.speed(1)                           # Make the turtle move as fast, but not too fast.
 
 tina.pencolor('blue')                   # Set the pen color to blue
 tina.forward(150)                       # Move tina forward by the forward distance
@@ -31,21 +31,22 @@ tina.forward(150)
 tina.left(90)
 
 tina.pencolor('purple')                 # Set the pen color to purple
-tina.forward(150)
-tina.left(90)
+tina.forward(200)
+tina.left(300)
 
 tina.penup()                            # Lift the pen up so we can move tina without drawing
+tina.backward(90)                        # Move tina forward by 20
+tina.left(5)  
+tina.forward(500)                         # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
-tina.left(90)                           # Turn tina left by 90 degrees
-tina.forward(20)                        # Move tina forward by 20
-tina.write("Why, hello there!")         # Write the message "Why, hello there!"
+tina.write("Heeeeeeeeeeeeellllllllloooooooooo")         # Write the message "Why, hello there!"
 tina.backward(20)                       # Move tina backward by 20
 
 tina.goto(-50,0)
 tina.pendown()
-tina.color('red')                       # Set the color of tina to red
+tina.color('blue')                       # Set the color of tina to red
 tina.begin_fill()
-tina.circle(101, steps=50)
+tina.circle(10000, steps=50)
 tina.end_fill()
 
 turtle.exitonclick()                    # Close the window when we click on it
