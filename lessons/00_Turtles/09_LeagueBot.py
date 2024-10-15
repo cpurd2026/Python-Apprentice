@@ -16,5 +16,5 @@ screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
 t = turtle.Turtle()
-
+tina.forward(500000)
 ... # Your Code Here
