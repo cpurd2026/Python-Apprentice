@@ -23,5 +23,11 @@ for color in colors:                            # loop through the colors
 # 2) Make another square, but put the colors in reverse order, using a negative index. 
 
 ... # Your code here
-
-turtle.exitonclick()                     # Close the window when we click on it
+tina.circle(100,steps= 30)
+tina.forward(100)
+tina.clone(2)                   # Close the window when we click on it
+tina.hideturtle
+tina.forward(20)
+tina.left(60)
+tina.clone
+tina.
